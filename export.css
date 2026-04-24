@@ -1,0 +1,18 @@
+@page { margin: 18mm; }
+body { font-family: -apple-system, Arial, sans-serif; color: #0D0D0D; margin: 0; padding: 24px; background: #fff; }
+h1 { font-size: 24px; color: #1A2744; margin: 0 0 4px; border-bottom: 3px solid #C9281E; padding-bottom: 8px; letter-spacing: 0.02em; }
+.subtitle { font-size: 12px; color: #6B6560; margin-bottom: 24px; text-transform: uppercase; letter-spacing: 0.1em; }
+.session { page-break-inside: avoid; margin-bottom: 26px; }
+.session-head { margin-bottom: 8px; }
+.session h2 { font-size: 16px; color: #1A2744; margin: 0; }
+.session-meta { font-size: 12px; color: #6B6560; margin-top: 2px; }
+.stars { color: #C8A96E; font-size: 14px; }
+table { width: 100%; border-collapse: collapse; margin-top: 6px; font-size: 12px; }
+th { background: #1A2744; color: #C8A96E; padding: 8px 10px; text-align: left; font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; }
+th:not(:first-child), td:not(:first-child) { text-align: center; }
+td { padding: 7px 10px; border-bottom: 1px solid #E8E4DC; }
+tbody tr:nth-child(even) { background: #F4F1EC; }
+.notes { margin-top: 8px; padding: 8px 12px; background: #EDE9E1; border-left: 3px solid #C8A96E; font-size: 12px; color: #333; }
+@media print { .no-print { display: none; } body { padding: 0; } }
+.print-bar { position: sticky; top: 0; background: #1A2744; color: #C8A96E; padding: 10px 16px; margin: -24px -24px 24px; display: flex; justify-content: space-between; align-items: center; }
+.print-bar button { background: #C9281E; color: white; border: none; padding: 8px 18px; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; cursor: pointer; border-radius: 2px; }
